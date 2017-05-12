@@ -1,0 +1,28 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+<div id="time"></div>
+<script type="text/javascript">
+      
+// $.getJSON("https://wtscag.com.sg/T4Files/Files/busETA/busETA_20170209_123207.json").then(
+//        function(result){
+//            console.log(result.busETA[2].etaData[0].etaMinutes);
+//            var a = result.busETA[2].etaData[0].etaMinutes;
+//            $("#time").html("NEXT BUS ARRIVING IN " + a + " MINUTES<br>")
+    
+    $( document ).ready(function() {
+      $.ajax({
+          url: "https://wtscag.com.sg/T4Files/Files/busETA/busETA_20170209_123207.json",
+      }).done(function(result) {
+             debugger;
+           var eta =result.busETA[2].etaData[0].etaMinutes;
+        document.getElementById('time').innerHTML = ("NEXT BUS ARRIVING IN " + eta + " MINUTES<br>")
+});
+});    
+
+</script>
+</body>
+</html>

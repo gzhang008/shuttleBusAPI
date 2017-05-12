@@ -1,0 +1,29 @@
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+
+<p>
+NEXT BUS ARRIVING IN<br />
+<span id="time"></span> MINUTES
+</p>
+
+
+<script type="text/javascript">
+var JSONObject= $.getJSON("bus.json");
+document.getElementById("time").innerHTML=JSONObject.busETA.etaData.etaMinutes;
+
+
+$.ajax({
+   url: "https://wtscag.com.sg/T4Files/Files/busETA/busETA_20170209_123207.json",
+   type: 'post',
+   dataType: "json",
+   success: function(data){
+      alert("得到的JSON对象是："+data);
+   }
+ });
+ </script>
+
+</body>
+</html>

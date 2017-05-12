@@ -1,0 +1,85 @@
+{
+  "busETA": [
+    {
+      "stopId": "T1",
+      "stopNumber": "T1",
+      "direction": 1,
+      "etaData": [
+        {
+          "serviceId": "LAN",
+          "etaMinutes": 142,
+          "timestamp": "2017-02-09 12:32:16Z",
+          "busLicensePlate": "PA9907",
+          "locationLat": 1.308775,
+          "locationLong": 103.711126666667,
+	"driverName": "SIOW KUO WEI",
+	"tripName": "12:30 PM"
+        },
+        {
+          "serviceId": "LAN",
+          "etaMinutes": 23,
+          "timestamp": "2017-02-09 12:32:16Z",
+          "busLicensePlate": "PA9962",
+          "locationLat": 1.308775,
+          "locationLong": 103.711126666667,
+	"driverName": "STEPHEN TAN",
+	"tripName": "12:30 PM"
+        },
+ 	{
+          "serviceId": "AIR",
+          "etaMinutes": 32,
+          "timestamp": "2017-02-09 12:32:16Z",
+          "busLicensePlate": "PA9962",
+          "locationLat": 1.308775,
+          "locationLong": 103.711126666667,
+	"driverName": "HIAP YAN SENG",
+	"tripName": "12:25 PM"
+        }
+      ]
+    },
+    {
+      "stopId": "T2",
+      "stopNumber": "2",
+      "direction": 1,
+      "etaData": [
+        {
+          "serviceId": "LAN",
+          "etaMinutes": 10,
+          "timestamp": "2017-02-09 12:32:17Z",
+          "busLicensePlate": "PA9868",
+          "locationLat": 1.25512166666667,
+          "locationLong": 103.68017,
+	"driverName": "TAN BOON YONG",
+	"tripName": "12:15 PM"
+        }
+      ]
+    },
+    {
+      "stopId": "T4",
+      "stopNumber": "4",
+      "direction": 1,
+      "etaData": [
+        {
+          "serviceId": "LAN",
+          "etaMinutes": 126,
+          "timestamp": "2017-02-09 12:32:16Z",
+          "busLicensePlate": "PA9907",
+          "locationLat": 1.308775,
+          "locationLong": 103.711126666667,
+	"driverName": "SIOW KUO WEI",
+	"tripName": "12:30 PM"
+        },
+        {
+          "serviceId": "AIR",
+          "etaMinutes": 9,
+          "timestamp": "2017-02-09 12:32:16Z",
+          "busLicensePlate": "PA9962",
+          "locationLat": 1.308775,
+          "locationLong": 103.711126666667,
+	"driverName": "HIAP YAN SENG",
+	"tripName": "12:25 PM"
+        }
+      ]
+    } 
+  ]
+}
